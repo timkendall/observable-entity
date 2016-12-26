@@ -39,4 +39,4 @@ The *Observable Entity* design pattern is an experimental design pattern for arc
 
 Event Sourcing is an amazing design pattern and honestly preferable if your team has the time and talent. It makes sure your application is completely deterministic (as long as you follow the [rules]()!). Howerver it does come with a higher intelectual cost and more boilerplate to manage. 
 
-Observable Entity can give you close to the same determinism by using something like [MobX](https://github.com/mobxjs/mobx) and with significantly less cognitive load and boilerplate. This makes it better suited less-experienced developers and for more quickly building out applications involving many domains of data.
+Observable Entity can give you close to the same determinism by using something like [MobX](https://github.com/mobxjs/mobx) and with significantly less cognitive load and boilerplate. This makes it better suited for less-experienced developers and  applications involving many domains of data.
