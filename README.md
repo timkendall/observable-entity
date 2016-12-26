@@ -2,6 +2,13 @@
 
 The *Observable Entity* design pattern is an experimental design pattern for architecting front-end (UI) applications. It is based largely on the [Repository Design Pattern](http://martinfowler.com/eaaCatalog/repository.html) popularized by the [Hanami](http://hanamirb.org/) framework. The goals and best use-cases of this pattern are listed below.
 
+Some benefits of this pattern:
+
+* No need to normalize data (can store actual references to to objects)
+* Less boilerplate that Redux
+* Easier for less-experienced devs to grasp concepts
+* Very similar to Hanami (easier for full-stack engineers to context switch)
+
 ## Key Concepts
 
 - **Entities** are observable, unique, and long-lived
