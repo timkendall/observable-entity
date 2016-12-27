@@ -19,6 +19,7 @@ Some benefits of this pattern:
 
 - Dumb (no knowledge of either their repositories or related organizers)
 - Whitelist acceptable data
+- Variable properties are observables
 - Can have lazily computed values
 - Handle serialization and deserialization of external representations of the data
 - Should only ever be one instance in memory for one unique `id`
